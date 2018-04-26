@@ -37,5 +37,4 @@ public interface AcctRefundInfoDao {
 
     public void updateOrderStatFail(Map map);
 
-    public void updateOrderStatSuccess(Map map);
 }
