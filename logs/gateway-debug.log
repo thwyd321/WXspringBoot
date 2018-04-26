@@ -1,0 +1,58 @@
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Connection:132 - {conn-10001} connected
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Connection:132 - {conn-10002} connected
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Connection:132 - {conn-10003} connected
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Connection:132 - {conn-10004} connected
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Connection:132 - {conn-10005} connected
+2018-04-26 22:10:58  [main][INFO] com.alibaba.druid.pool.DruidDataSource:785 - {dataSource-1} inited
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Connection:132 - {conn-10005} pool-connect
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Statement:137 - {conn-10005, pstmt-20000} created. SELECT * FROM c_acct_refund_info t
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Statement:137 - {conn-10005, pstmt-20000} Parameters : []
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Statement:137 - {conn-10005, pstmt-20000} Types : []
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Statement:137 - {conn-10005, pstmt-20000} executed. 10.287577 millis. SELECT * FROM c_acct_refund_info t
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} open
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Header: [order_no, mrch_id, cust_id, payee_type, payee_account, apply_tran_amt, tran_amt, pay_channel, create_time, out_trade_no, order_stat, refund_stat, refund_time, error_code, error_msg]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [180420609385619, a2345678123456781234567812345678, 1803017626108146, ALIPAY_USERID, 7777777, 30197, null, 1, 2018-04-20 18:17:58.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [18042231230609385618, a2345678123456781234567812345678, 1803017626108146, null, 66666, 1, 1, 2, 2018-04-26 11:03:02.0, null, 3, 3, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180408230139408403279009313766, a2345678123456781234567812345678, 1803134981227758, null, null, 2, null, 1, 2018-04-08 23:01:39.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180408231511808878602471253832, a2345678123456781234567812345678, 1804088801303796, null, null, 2, null, 1, 2018-04-08 23:15:11.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180408231826930798305839648512, a2345678123456781234567812345678, 1804088801303796, null, null, 1, null, 1, 2018-04-08 23:18:26.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409100129906981753679273564, a2345678123456781234567812345678, 1803125959259995, null, null, 1, null, 1, 2018-04-09 10:01:29.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409101343847852251178948638, a2345678123456781234567812345678, 1803125959259995, null, null, 1, null, 1, 2018-04-09 10:13:43.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409102151817737184178066582, a2345678123456781234567812345678, 1803125959259995, null, null, 1, null, 1, 2018-04-09 10:21:51.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409162600023743188412489978, a2345678123456781234567812345678, 1803274400604711, null, null, 1, null, 1, 2018-04-09 16:26:01.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409162956685844928258552015, a2345678123456781234567812345678, 1803274400604711, null, null, 1, null, 1, 2018-04-09 16:29:56.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409164652546477970412455791, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-09 16:46:52.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409173123294095184667770306, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-09 17:31:24.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409182043922589918019167659, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-09 18:20:43.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409182734172611882397746465, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-09 18:27:35.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409182938616190374222189227, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-09 18:29:39.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409183810759772668387050172, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-09 18:38:11.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180409184005487546336949862879, a2345678123456781234567812345678, 1803145508945917, null, null, 997, null, 1, 2018-04-09 18:40:05.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410141031281482825176913193, a2345678123456781234567812345678, 1804096526249085, null, null, 1, null, 1, 2018-04-10 14:10:32.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410141947897532088584448013, a2345678123456781234567812345678, 1804096526249085, null, null, 1, null, 1, 2018-04-10 14:19:47.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410142017789301300689930499, a2345678123456781234567812345678, 1804096526249085, null, null, 1, null, 1, 2018-04-10 14:20:18.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410142253519322819507652428, a2345678123456781234567812345678, 1804096526249085, null, null, 2, null, 1, 2018-04-10 14:22:53.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410142526103229520830611778, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-10 14:25:27.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410142538332789128348722132, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-10 14:25:38.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410160332735710153399169714, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-10 16:03:33.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410161309805455437351392105, a2345678123456781234567812345678, 1803274400604711, null, null, 1, null, 1, 2018-04-10 16:13:10.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410162041172113695211750520, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-10 16:20:41.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410162407986072428225490495, a2345678123456781234567812345678, 1803145508945917, null, null, 1, null, 1, 2018-04-10 16:24:08.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410164523712377612112331515, a2345678123456781234567812345678, 1804096526249085, null, null, 1, null, 1, 2018-04-10 16:45:24.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180410164549937064901265459083, a2345678123456781234567812345678, 1804096526249085, null, null, 1, null, 1, 2018-04-10 16:45:49.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180411142341192236871950356357, a2345678123456781234567812345678, 1804118979285785, null, null, 1, null, 1, 2018-04-11 14:23:42.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [20180411162159923005860938998327, a2345678123456781234567812345678, 1804115180722989, null, null, 1, null, 1, 2018-04-11 16:21:59.0, null, 1, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [31232134341242341, a2345678123456781234567812345678, 1803017626108146, null, 77777, 2, null, 2, 2018-04-26 11:04:42.0, null, 4, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} Result: [56345634564534534, a2345678123456781234567812345678, 1803017626108146, null, 88888, 3, null, 2, 2018-04-26 11:05:43.0, null, 4, 1, null, null, null]
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.ResultSet:142 - {conn-10005, pstmt-20000, rs-50000} closed
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Statement:137 - {conn-10005, pstmt-20000} clearParameters. 
+2018-04-26 22:10:58  [main][DEBUG] com.alibaba.druid.pool.PreparedStatementPool:121 - {conn-10005, pstmt-20000} enter cache
+2018-04-26 22:10:58  [main][DEBUG] druid.sql.Connection:132 - {conn-10005} pool-recycle
+2018-04-26 22:10:58  [Thread-6][DEBUG] druid.sql.Connection:132 - {conn-10001} closed
+2018-04-26 22:10:58  [Thread-6][DEBUG] druid.sql.Connection:132 - {conn-10002} closed
+2018-04-26 22:10:58  [Thread-6][DEBUG] druid.sql.Connection:132 - {conn-10003} closed
+2018-04-26 22:10:58  [Thread-6][DEBUG] druid.sql.Connection:132 - {conn-10004} closed
+2018-04-26 22:10:58  [Thread-6][DEBUG] com.alibaba.druid.pool.PreparedStatementPool:152 - {conn-10005, pstmt-20000} exit cache
+2018-04-26 22:10:58  [Thread-6][DEBUG] druid.sql.Statement:137 - {conn-10005, pstmt-20000} closed
+2018-04-26 22:10:58  [Thread-6][DEBUG] druid.sql.Connection:132 - {conn-10005} closed
+2018-04-26 22:10:58  [Thread-6][INFO] com.alibaba.druid.pool.DruidDataSource:1514 - {dataSource-1} closed

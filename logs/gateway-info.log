@@ -1,0 +1,2 @@
+2018-04-26 22:10:58  [main][INFO] com.alibaba.druid.pool.DruidDataSource:785 - {dataSource-1} inited
+2018-04-26 22:10:58  [Thread-6][INFO] com.alibaba.druid.pool.DruidDataSource:1514 - {dataSource-1} closed
